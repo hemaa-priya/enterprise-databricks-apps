@@ -2,9 +2,6 @@
 
 Enterprise-grade analytics application built with **Databricks Connect** and **Streamlit**, featuring the TPCH sample dataset.
 
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ## Features
 
@@ -158,7 +155,7 @@ docker run -p 8501:8501 \
   order-analytics
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hp-solutions/
@@ -262,4 +259,3 @@ This project is provided as a reference implementation. Use and modify as needed
 
 ---
 
-Built by Hema & Vibe coding using [Databricks Connect](https://docs.databricks.com/en/dev-tools/databricks-connect/index.html) + [Streamlit](https://streamlit.io/)
