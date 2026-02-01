@@ -1,0 +1,23 @@
+# Databricks Connect + Streamlit Enterprise Application
+# Python 3.10+ required
+
+# Core Framework
+streamlit>=1.40.0,<2.0.0
+
+# Databricks Connectors (choose one based on your setup)
+# Option 1: SQL Warehouse (Recommended - serverless, auto-scales)
+databricks-sql-connector>=3.0.0
+
+# Option 2: Classic Cluster (for full Spark DataFrame API)
+databricks-connect>=14.0.0
+databricks-sdk>=0.20.0
+
+# Data Processing
+pandas>=2.0.0,<3.0.0
+pyarrow>=14.0.0
+
+# Visualization
+plotly>=5.18.0,<6.0.0
+
+# Utilities
+numpy>=1.24.0,<2.0.0
